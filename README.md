@@ -13,11 +13,11 @@ Or create a Heroku app manually:
 $ heroku create
 $ heroku stack:set container
 $ heroku config:set CHISEL_AUTH=user:pass METHOD=rc4-md5 KEY=foobar
-$ git push heroku master
+$ git push heroku main
 ...
 remote: Verifying deploy... done.
 To https://git.heroku.com/damp-anchorage-82986.git
- * [new branch]      master -> master
+ * [new branch]      main -> main
 ```
 
 Connect your `chisel` client:
